@@ -52,7 +52,7 @@ public class AddressBook {
         this.addressBook = new HashMap<String, Address>();
     }
 
-    // Добавь нового человека в адресную книгу
+    // Добавить нового человека в адресную книгу
     public void addNewRecord(String name, String street, int building, int apartment) {
         Address address = new Address(street, building, apartment);
         addressBook.put(name, address);
