@@ -64,7 +64,7 @@ public class AddressBook {
 
     /**
      * Add new record to address book by full information of his address.
-     * @param name Name of person who are added to address book.
+     * @param name Name of person who is added to address book.
      * @param street Street on which person lives.
      * @param building Building on street in which person lives.
      * @param apartment Apartment of building.
@@ -80,7 +80,7 @@ public class AddressBook {
 
     /**
      * Delete person's information from address book by his name.
-     * @param name Name of person who are deleted from address book.
+     * @param name Name of person who is deleted from address book.
      */
     public void deleteRecord(String name) {
         if (name == null || !addressBook.containsKey(name))
